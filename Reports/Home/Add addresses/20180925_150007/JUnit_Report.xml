@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add addresses" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="Add addresses" tests="2" failures="0" errors="0" time="19" timestamp="2018-09-25 15:00:12" hostname="WINIB-PPSA45UJK$ - WINIB-PPSA45UJK" id="Test Suites/Home/Add addresses">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\stagiaire\\git\\katalon-exam-answers\\Reports\\Home\\Add addresses\\20180925_150007"/>
+         <property name="logFiles" value="C:\\Users\\stagiaire\\git\\katalon-exam-answers\\Reports\\Home\\Add addresses\\20180925_150007\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\stagiaire\\git\\katalon-exam-answers\\Reports\\Home\\Add addresses\\20180925_150007\\1537880429095.png"/>
+         <property name="hostName" value="WINIB-PPSA45UJK$ - WINIB-PPSA45UJK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="38eaaeb6f27464390ad17ec313a7519d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Home/Add address" classname="Test Cases/Home/Add address" status="PASSED">
+         <system-out><![CDATA[2018-09-25 15:00:13 - [TEST_CASE][PASSED] - Test Cases/Home/Add address: Test Cases/Home/Add address
+
+2018-09-25 15:00:13 - [TEST_STEP][PASSED] - Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), ["alias":alias]))): Call Test Case 'Test Cases/Common/FindAddress' successfully
+
+2018-09-25 15:00:13 - [TEST_CASE][PASSED] - Test Cases/Common/FindAddress: Test Cases/Common/FindAddress
+
+2018-09-25 15:00:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/GoToUrl' successfully
+
+2018-09-25 15:00:13 - [TEST_CASE][PASSED] - Test Cases/Common/GoToUrl: Test Cases/Common/GoToUrl
+
+2018-09-25 15:00:13 - [TEST_STEP][PASSED] - Statement - currentUrl = "": null
+
+2018-09-25 15:00:13 - [TEST_STEP][FAILED] - Statement - Try: Unable to get the url of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINIB-PPSA45UJK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-25 15:00:13 - [TEST_STEP][FAILED] - Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Unable to get the url of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINIB-PPSA45UJK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-25 15:00:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-25 15:00:13 - [MESSAGE][FAILED] - Unable to get the url of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINIB-PPSA45UJK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-25 15:00:13 - [TEST_STEP][PASSED] - Statement - Catch (com.kms.katalon.core.exception.StepFailedException e): Current window's url is: 'http://automationpractice.com/index.php?controller=authentication&back=addresses'
+
+2018-09-25 15:00:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php?controller=addresses'
+
+2018-09-25 15:00:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php?controller=addresses'
+
+2018-09-25 15:00:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-25 15:00:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-25 15:00:20 - [TEST_STEP][PASSED] - Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'http://automationpractice.com/index.php?controller=authentication&back=addresses'
+
+2018-09-25 15:00:20 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?controller=authentication&back=addresses'
+
+2018-09-25 15:00:20 - [TEST_STEP][PASSED] - Statement - If (!(currentUrl.equals(url))): Wait for page load successfully
+
+2018-09-25 15:00:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php?controller=addresses' successfully
+
+2018-09-25 15:00:22 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=addresses' successfully
+
+2018-09-25 15:00:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-25 15:00:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-25 15:00:22 - [TEST_STEP][PASSED] - Statement - Try: Wait for page load successfully
+
+2018-09-25 15:00:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign in' is present on page 
+
+2018-09-25 15:00:22 - [MESSAGE][PASSED] - Text 'Sign in' is present on page 
+
+2018-09-25 15:00:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/a_Sign in' is clicked on
+
+2018-09-25 15:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Sign in' is clicked on
+
+2018-09-25 15:00:23 - [TEST_STEP][PASSED] - setText: Text 'gert-jan.paulissen@sogeti.com' is set on object 'Object Repository/Login/input_email'
+
+2018-09-25 15:00:23 - [MESSAGE][PASSED] - Text 'gert-jan.paulissen@sogeti.com' is set on object 'Object Repository/Login/input_email'
+
+2018-09-25 15:00:23 - [TEST_STEP][PASSED] - setText: Text 'g1j2p3' is set on object 'Object Repository/Login/input_passwd'
+
+2018-09-25 15:00:24 - [MESSAGE][PASSED] - Text 'g1j2p3' is set on object 'Object Repository/Login/input_passwd'
+
+2018-09-25 15:00:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/span_Sign in' is clicked on
+
+2018-09-25 15:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign in' is clicked on
+
+2018-09-25 15:00:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php?controller=addresses' successfully
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=addresses' successfully
+
+2018-09-25 15:00:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-25 15:00:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign out' is present on page 
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Text 'Sign out' is present on page 
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/GoToUrl' successfully
+
+2018-09-25 15:00:26 - [TEST_STEP][PASSED] - Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Addresses - My Store/span_Delete), "xpath", "equals", "//a[@title='Delete' and ../../li[1]/h3/text()='" + alias + "']", true): Modify property of object successfully
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-09-25 15:00:26 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(deleteButton, 1)): null
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Addresses - My Store/span_Delete' is present
+
+2018-09-25 15:00:26 - [TEST_STEP][PASSED] - Statement - return deleteButton: null
+
+2018-09-25 15:00:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/FindAddress' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Add address" classname="Test Cases/Home/Add address" status="PASSED">
+         <system-out><![CDATA[2018-09-25 15:00:28 - [TEST_CASE][PASSED] - Test Cases/Home/Add address: Test Cases/Home/Add address
+
+2018-09-25 15:00:28 - [TEST_STEP][PASSED] - Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), ["alias":alias]))): Call Test Case 'Test Cases/Common/FindAddress' successfully
+
+2018-09-25 15:00:28 - [TEST_CASE][PASSED] - Test Cases/Common/FindAddress: Test Cases/Common/FindAddress
+
+2018-09-25 15:00:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/GoToUrl' successfully
+
+2018-09-25 15:00:28 - [TEST_CASE][PASSED] - Test Cases/Common/GoToUrl: Test Cases/Common/GoToUrl
+
+2018-09-25 15:00:28 - [TEST_STEP][PASSED] - Statement - currentUrl = "": null
+
+2018-09-25 15:00:28 - [TEST_STEP][PASSED] - Statement - Try: Current window's url is: 'http://automationpractice.com/index.php?controller=addresses'
+
+2018-09-25 15:00:28 - [TEST_STEP][PASSED] - Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'http://automationpractice.com/index.php?controller=addresses'
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?controller=addresses'
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - Statement - If (!(currentUrl.equals(url))): null
+
+2018-09-25 15:00:29 - [TEST_STEP][FAILED] - Statement - Try: Unable to verify text 'Sign in' is present  (Root cause: Text 'Sign in' is not present on page )
+
+2018-09-25 15:00:29 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Sign in' is present  (Root cause: Text 'Sign in' is not present on page )
+
+2018-09-25 15:00:29 - [MESSAGE][FAILED] - Text 'Sign in' is not present on page 
+
+2018-09-25 15:00:29 - [MESSAGE][FAILED] - Unable to verify text 'Sign in' is present  (Root cause: Text 'Sign in' is not present on page )
+[[ATTACHMENT|C:\\Users\\stagiaire\\git\\katalon-exam-answers\\Reports\\Home\\Add addresses\\20180925_150007\\1537880429095.png]]
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign out' is present on page 
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Text 'Sign out' is present on page 
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/GoToUrl' successfully
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Addresses - My Store/span_Delete), "xpath", "equals", "//a[@title='Delete' and ../../li[1]/h3/text()='" + alias + "']", true): Modify property of object successfully
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(deleteButton, 1)): null
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Addresses - My Store/span_Delete' is present
+
+2018-09-25 15:00:29 - [TEST_STEP][PASSED] - Statement - return deleteButton: null
+
+2018-09-25 15:00:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/FindAddress' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-25 15:00:12 - [TEST_SUITE][PASSED] - Add addresses: Test Cases/Home/Add address]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

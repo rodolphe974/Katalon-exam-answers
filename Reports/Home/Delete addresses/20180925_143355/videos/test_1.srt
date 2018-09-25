@@ -1,0 +1,104 @@
+1
+00:00:00,258 --> 00:00:00,264
+1. Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), ["alias":alias])
+
+2
+00:00:00,496 --> 00:00:00,496
+1. callTestCase
+
+3
+00:00:00,717 --> 00:00:00,718
+1. Statement - currentUrl = ""
+
+4
+00:00:00,722 --> 00:00:00,723
+5. Statement - Try
+
+5
+00:00:00,729 --> 00:00:00,730
+1. Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()
+
+6
+00:00:00,920 --> 00:00:00,920
+2. openBrowser
+
+7
+00:00:09,318 --> 00:00:09,320
+6. maximizeWindow
+
+8
+00:00:09,387 --> 00:00:09,389
+10. Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()
+
+9
+00:00:09,398 --> 00:00:09,399
+9. Statement - If (!(currentUrl.equals(url)))
+
+10
+00:00:09,404 --> 00:00:09,405
+1. navigateToUrl
+
+11
+00:00:10,799 --> 00:00:10,799
+5. waitForPageLoad
+
+12
+00:00:10,858 --> 00:00:10,859
+13. Statement - Try
+
+13
+00:00:10,863 --> 00:00:10,864
+1. verifyTextPresent
+
+14
+00:00:11,164 --> 00:00:11,165
+5. click
+
+15
+00:00:12,174 --> 00:00:12,176
+9. setText
+
+16
+00:00:12,309 --> 00:00:12,309
+13. setText
+
+17
+00:00:12,373 --> 00:00:12,373
+17. click
+
+18
+00:00:14,991 --> 00:00:14,992
+21. navigateToUrl
+
+19
+00:00:17,303 --> 00:00:17,304
+25. waitForPageLoad
+
+20
+00:00:17,315 --> 00:00:17,316
+17. verifyTextPresent
+
+21
+00:00:17,691 --> 00:00:17,692
+5. Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Addresses - My Store/span_Delete), "xpath", "equals", "//a[@title='Delete' and ../../li[1]/h3/text()='" + alias + "']", true)
+
+22
+00:00:17,708 --> 00:00:17,709
+9. Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(deleteButton, 1))
+
+23
+00:00:17,735 --> 00:00:17,735
+1. Statement - return deleteButton
+
+24
+00:00:17,742 --> 00:00:17,743
+5. Statement - If (deleteButton)
+
+25
+00:00:17,751 --> 00:00:17,752
+1. click
+
+26
+00:00:17,818 --> 00:00:17,819
+5. acceptAlert
+

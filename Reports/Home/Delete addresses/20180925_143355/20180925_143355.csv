@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Delete addresses,Firefox 62.0,,2018-09-25 14:34:01,2018-09-25 14:34:24,"23,478s",PASSED
+,,,,,,
+Test Cases/Home/Delete address,Firefox 62.0,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 14:34:01,2018-09-25 14:34:21,"19,963s",PASSED
+"Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])",Firefox 62.0,,2018-09-25 14:34:01,2018-09-25 14:34:19,"17,479s",PASSED
+Statement - If (deleteButton),Firefox 62.0,,2018-09-25 14:34:19,2018-09-25 14:34:19,"0,119s",PASSED
+,,,,,,
+Test Cases/Home/Delete address,Firefox 62.0,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 14:34:21,2018-09-25 14:34:24,"3,039s",PASSED
+"Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])",Firefox 62.0,,2018-09-25 14:34:21,2018-09-25 14:34:22,"0,914s",PASSED
+Statement - If (deleteButton),Firefox 62.0,,2018-09-25 14:34:22,2018-09-25 14:34:22,"0,078s",PASSED

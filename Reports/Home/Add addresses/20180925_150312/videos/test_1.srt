@@ -1,0 +1,92 @@
+1
+00:00:00,281 --> 00:00:00,285
+1. Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), ["alias":alias])))
+
+2
+00:00:00,499 --> 00:00:00,500
+1. callTestCase
+
+3
+00:00:00,698 --> 00:00:00,699
+1. Statement - currentUrl = ""
+
+4
+00:00:00,703 --> 00:00:00,704
+5. Statement - Try
+
+5
+00:00:00,708 --> 00:00:00,709
+1. Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()
+
+6
+00:00:00,848 --> 00:00:00,849
+2. openBrowser
+
+7
+00:00:06,778 --> 00:00:06,779
+6. maximizeWindow
+
+8
+00:00:07,911 --> 00:00:07,914
+10. Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()
+
+9
+00:00:07,928 --> 00:00:07,929
+9. Statement - If (!(currentUrl.equals(url)))
+
+10
+00:00:07,935 --> 00:00:07,936
+1. navigateToUrl
+
+11
+00:00:08,947 --> 00:00:08,947
+5. waitForPageLoad
+
+12
+00:00:08,982 --> 00:00:08,983
+13. Statement - Try
+
+13
+00:00:08,987 --> 00:00:08,988
+1. verifyTextPresent
+
+14
+00:00:09,097 --> 00:00:09,097
+5. click
+
+15
+00:00:10,534 --> 00:00:10,536
+9. setText
+
+16
+00:00:10,689 --> 00:00:10,690
+13. setText
+
+17
+00:00:10,812 --> 00:00:10,813
+17. click
+
+18
+00:00:14,187 --> 00:00:14,188
+21. navigateToUrl
+
+19
+00:00:14,900 --> 00:00:14,901
+25. waitForPageLoad
+
+20
+00:00:14,914 --> 00:00:14,914
+17. verifyTextPresent
+
+21
+00:00:15,014 --> 00:00:15,014
+5. Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Addresses - My Store/span_Delete), "xpath", "equals", "//a[@title='Delete' and ../../li[1]/h3/text()='" + alias + "']", true)
+
+22
+00:00:15,030 --> 00:00:15,031
+9. Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(deleteButton, 1))
+
+23
+00:00:15,066 --> 00:00:15,066
+1. Statement - return deleteButton
+

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add addresses,Chrome 69.0.3497.100,,2018-09-25 15:03:17,2018-09-25 15:03:38,"20,722s",PASSED
+,,,,,,
+Test Cases/Home/Add address,Chrome 69.0.3497.100,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 15:03:18,2018-09-25 15:03:35,"17,168s",PASSED
+"Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])))",Chrome 69.0.3497.100,,2018-09-25 15:03:18,2018-09-25 15:03:33,"14,791s",PASSED
+,,,,,,
+Test Cases/Home/Add address,Chrome 69.0.3497.100,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 15:03:35,2018-09-25 15:03:37,"2,659s",PASSED
+"Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])))",Chrome 69.0.3497.100,,2018-09-25 15:03:35,2018-09-25 15:03:35,"0,636s",PASSED

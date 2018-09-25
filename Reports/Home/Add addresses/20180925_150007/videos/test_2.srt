@@ -1,0 +1,48 @@
+1
+00:00:00,001 --> 00:00:00,002
+1. Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), ["alias":alias])))
+
+2
+00:00:00,063 --> 00:00:00,064
+1. callTestCase
+
+3
+00:00:00,132 --> 00:00:00,133
+1. Statement - currentUrl = ""
+
+4
+00:00:00,138 --> 00:00:00,139
+5. Statement - Try
+
+5
+00:00:00,144 --> 00:00:00,144
+1. Statement - currentUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()
+
+6
+00:00:00,157 --> 00:00:00,157
+9. Statement - If (!(currentUrl.equals(url)))
+
+7
+00:00:00,161 --> 00:00:00,163
+13. Statement - Try
+
+8
+00:00:00,167 --> 00:00:00,167
+1. verifyTextPresent
+
+9
+00:00:00,500 --> 00:00:00,501
+17. verifyTextPresent
+
+10
+00:00:00,586 --> 00:00:00,587
+5. Statement - deleteButton = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Addresses - My Store/span_Delete), "xpath", "equals", "//a[@title='Delete' and ../../li[1]/h3/text()='" + alias + "']", true)
+
+11
+00:00:00,595 --> 00:00:00,595
+9. Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(deleteButton, 1))
+
+12
+00:00:00,615 --> 00:00:00,616
+1. Statement - return deleteButton
+

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add addresses,Firefox 62.0,,2018-09-25 14:33:13,2018-09-25 14:33:35,"21,381s",PASSED
+,,,,,,
+Test Cases/Home/Add address,Firefox 62.0,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 14:33:14,2018-09-25 14:33:31,"17,802s",PASSED
+"Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])))",Firefox 62.0,,2018-09-25 14:33:14,2018-09-25 14:33:29,"15,395s",PASSED
+,,,,,,
+Test Cases/Home/Add address,Firefox 62.0,Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.,2018-09-25 14:33:31,2018-09-25 14:33:34,"3,053s",PASSED
+"Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Common/FindAddress), [""alias"":alias])))",Firefox 62.0,,2018-09-25 14:33:31,2018-09-25 14:33:32,"1,031s",PASSED
