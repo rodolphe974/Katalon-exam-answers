@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add an address. It uses the common function GoToUrl to go to the page you want in an efficient way.</description>
+   <name>Add address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46ae6bc8-5906-4545-aa71-8cf9d2aac1bd</testCaseGuid>
+   <variable>
+      <defaultValue>'Gert-Jan'</defaultValue>
+      <description></description>
+      <id>39eb495d-a16c-4a1d-9146-eef2dbebfe3a</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Paulissen'</defaultValue>
+      <description></description>
+      <id>7a2990ff-0ba2-46c5-a4b6-0b7d19e359b1</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'20 Rue de Cantaranne'</defaultValue>
+      <description></description>
+      <id>9598d215-8794-4156-9174-792b281a1c88</id>
+      <masked>false</masked>
+      <name>address1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Gradignan'</defaultValue>
+      <description></description>
+      <id>00f9411c-3954-4cbb-9bd1-353caca76e49</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'Alabama'</defaultValue>
+      <description></description>
+      <id>798dd60c-f50f-4e55-ba67-ad6c7f241c38</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'33170'</defaultValue>
+      <description></description>
+      <id>d695a2ae-73fe-4542-8a4a-180a46d6e88c</id>
+      <masked>false</masked>
+      <name>postCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'+33763596952'</defaultValue>
+      <description></description>
+      <id>bd0885b6-bf71-4c2c-a11c-76b25e11626c</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>01b6de2c-a111-4c16-8be2-eb032bb43cdb</id>
+      <masked>false</masked>
+      <name>alias</name>
+   </variable>
+</TestCaseEntity>
